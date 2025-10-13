@@ -1,0 +1,6 @@
+|"#event_simpleName" = SensorHeartbeat
+| ipLocation("Agent IP")
+| asn(RemoteAddressIP4)
+| table(["ComputerName","Agent IP","Agent IP.country"],limit=10000)
+| groupBy(["Agent IP.country"])
+| sort()
