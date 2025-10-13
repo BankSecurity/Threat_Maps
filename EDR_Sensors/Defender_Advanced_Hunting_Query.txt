@@ -1,0 +1,7 @@
+DeviceInfo
+| extend ip_location=geo_info_from_ip_address(PublicIP)
+| extend country = tostring(ip_location.country)
+| where country != ""
+| distinct DeviceName, country
+| summarize count() by country
+| sort by count_
