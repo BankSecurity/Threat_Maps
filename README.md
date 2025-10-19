@@ -20,3 +20,6 @@ python EDR_Plot_Script.py Defender_Sensors_Demo.csv Country_Coordinates.csv
 ```bash
 python EDR_Plot_Script.py Crowdstrike_Sensors_Demo.csv Country_Coordinates.csv
 ```
+### Country Code
+The country codes, alpha-2 codes and relative coordinates can be downloaded here:
+https://github.com/BankSecurity/Threat_Maps/blob/main/EDR_Sensors/Country_Coordinates.csv 
