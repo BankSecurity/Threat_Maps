@@ -1,5 +1,7 @@
 # Threat_Maps
-World map visualizations based on data from EDR sensors or targeted hosts/users
+World map visualizations based on data from EDR sensors or targeted hosts/users.
+
+Reference: https://bank-security.medium.com/geopolitical-intelligence-from-edr-sensor-location-data-33b29313d118 
 
 ## EDR_Sensors
 Dedicated section to plot the EDR sensors data to a world map. Currently set for Crowdstrike and Defender.
